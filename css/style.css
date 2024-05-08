@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 20px;
+}
+
+.section1 {
+    background-image: url(../images/sec1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+}
+
+.section1 h1 {
+    color: rgb(123, 123, 223);
+}
+
+.section1 p {
+    color: rgb(123, 123, 223);
+}
+
+.section1 .btn {
+    margin-left: 500px;
+}
+
+.section2 {
+    margin-top: 30px;
+    background-color: rgb(235, 235, 235);
+    height: 370px;
+}
+
+.section2 i {
+    font-size: 90px;
+    margin-left: 55px;
+    margin-top: 20px;
+    color: rgb(106, 106, 245);
+    width: 14rem;
+}
+
+.section3 .sec1 {
+    margin-top: 30px;
+    height: 300px;
+}
+
+.section3 .sec1 h5 {
+    float: left;
+}
+
+.section3 .sec1 p {
+    float: left;
+}
+
+.section3 .sec1 img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section3 .sec2 {
+    margin-top: 30px;
+    height: 300px;
+}
+
+.section3 .sec2 h5 {
+    float: right;
+}
+
+.section3 .sec2 p {
+    float: right;
+}
+
+.section3 .sec2 img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section3 .sec3 {
+    margin-top: 30px;
+}
+
+.section3 .sec3 h5 {
+    float: left;
+}
+
+.section3 .sec3 p {
+    float: left;
+}
+
+.section3 .sec3 img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* media query */
+@media((min-width:991px) and (max-width:1199px)){
+    .section1 .btn {
+        margin-left: 400px;
+    }
+}
+@media((min-width:766px) and (max-width:990px)){
+    .section1 .btn {
+        margin-left: 300px;
+    }
+    .section2 i {
+        font-size: 50px;
+        margin-left: 45px;
+        margin-top: 20px;
+        color: rgb(106, 106, 245);
+        width: 8rem;
+    }
+    .section2 h3{
+        font-size: 18px;
+    }
+}    
+@media((min-width:500px) and (max-width:765px)){
+    .section1 .btn {
+        margin-left: 200px;
+    }
+    .section2 i {
+        font-size: 30px;
+        margin-left: 35px;
+        margin-top: 20px;
+        color: rgb(106, 106, 245);
+        width: 4rem;
+    }
+    .section2 h3{
+        font-size: 12px;
+    }
+}   
+@media((min-width:400px) and (max-width:499px)){
+    .section1 .btn {
+        margin-left: 200px;
+    }
+    .section2 i {
+        font-size: 25px;
+        margin-left: 25px;
+        margin-top: 20px;
+        color: rgb(106, 106, 245);
+        width: 4rem;
+    }
+    .section2{
+        height: 450px;
+    }
+    .section2 h3{
+        font-size: 9px;
+    }
+}  
+@media((min-width:300px) and (max-width:399px)){
+    .section1 .btn {
+        margin-left: 150px;
+    }
+    .section2{
+        height: 500px;
+    }
+    .section2 i {
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 20px;
+        color: rgb(106, 106, 245);
+        width: 2rem;
+    }
+    .section2 h3{
+        font-size: 6px;
+    }
+}
